@@ -2,10 +2,9 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-}
-.header{
+  justify-content: space-between;
+  align-items: end;
   padding: 8px;
-  flex: 1 1 0;
 }
 .logo {
   font-size: 48px;
@@ -13,6 +12,17 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+}
+.left-links {
+  display: flex;
+  background-color: blueviolet;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: start;
+}
+.right-links{
+  background-color: blueviolet;
+  gap: 8px;
 }
 
 ul {
